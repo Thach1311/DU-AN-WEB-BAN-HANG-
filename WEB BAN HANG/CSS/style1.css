@@ -13,6 +13,7 @@
 }
 .header__form1 a{
     color: #777;
+    text-decoration: none;
 }
 .header__form2 {
     color: #777;
@@ -107,4 +108,54 @@
 }
 .header__form3-usd:hover .header__form3-moreMoney{
     display: block;
+}
+
+/* FOMR HEADER 2 */
+.header2{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header2__menu a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 8px 15px;
+}
+.header2__icon{
+    display: flex;
+    align-items: center;
+}
+.header2__icon i{
+    margin-right: 20px;
+}
+.header2__icon-backgoundCart{
+    background-color: #FFAA00;
+    width: 95px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header2__icon-backgoundCart i{
+    font-size: 40px;
+    color: #fff; 
+    margin-left: 15px;
+}
+.header2__menu a:hover{
+    color: #fff;
+    background-color: #FFAA00;
+    padding: 8px 15px;
+    border-radius: 3px;
+   
+}
+.fa-magnifying-glass:hover{
+    color: #FFAA00;
+}
+.fa-user:hover{
+    color: #FFAA00;
 }
