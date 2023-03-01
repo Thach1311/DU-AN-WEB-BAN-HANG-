@@ -6,7 +6,169 @@
     scroll-behavior: smooth;
 }
 
+.loader {
+    --path: #2F3545;
+    --dot: #5628EE;
+    --duration: 3s;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    &:before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        background: var(--dot);
+        top: 37px;
+        left: 19px;
+        transform: translate(-18px, -18px);
+        animation: dotRect var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+    }
+    svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        rect,
+        polygon,
+        circle {
+            fill: none;
+            stroke: var(--path);
+            stroke-width: 10px;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+        polygon {
+            stroke-dasharray: 145 (221 - 145) 145 (221 - 145);
+            stroke-dashoffset: 0;
+            animation: pathTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+        }
+        rect {
+            stroke-dasharray: (256 / 4 * 3) (256 / 4) (256 / 4 * 3) (256 / 4);
+            stroke-dashoffset: 0;
+            animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+        }
+        circle {
+            stroke-dasharray: (200 / 4 * 3) (200 / 4) (200 / 4 * 3) (200 / 4);
+            stroke-dashoffset: 75;
+            animation: pathCircle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+        }
+    }
+    &.triangle {
+        width: 48px;
+        &:before {
+            left: 21px;
+            transform: translate(-10px, -18px);
+            animation: dotTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+        }
+    }
+}
 
+@keyframes pathTriangle {
+    33% {
+        stroke-dashoffset: 74;
+    }
+    66% {
+        stroke-dashoffset: 147;
+    }
+    100% {
+        stroke-dashoffset: 221;
+    }
+}
+
+@keyframes dotTriangle {
+    33% {
+        transform: translate(0, 0);
+    }
+    66% {
+        transform: translate(10px, -18px);
+    }
+    100% {
+        transform: translate(-10px, -18px);
+    }
+}
+
+@keyframes pathRect {
+    25% {
+        stroke-dashoffset: 64;
+    }
+    50% {
+        stroke-dashoffset: 128;
+    }
+    75% {
+        stroke-dashoffset: 192;
+    }
+    100% {
+        stroke-dashoffset: 256;
+    }
+}
+
+@keyframes dotRect {
+    25% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(18px, -18px);
+    }
+    75% {
+        transform: translate(0, -36px);
+    }
+    100% {
+        transform: translate(-18px, -18px);
+    }
+}
+
+@keyframes pathCircle {
+    25% {
+        stroke-dashoffset: 125;
+    }
+    50% {
+        stroke-dashoffset: 175;
+    }
+    75% {
+        stroke-dashoffset: 225;
+    }
+    100% {
+        stroke-dashoffset: 275;
+    }
+}
+
+.loader {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
+// Center & dribbble
+body {
+    min-height: 100vh;
+    background: #F5F9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dribbble {
+        position: fixed;
+        display: block;
+        right: 20px;
+        bottom: 20px;
+        img {
+            display: block;
+            height: 28px;
+        }
+    }
+}
 
 
 .header {
@@ -1303,25 +1465,19 @@
     height: 50px;
 }
 
-/* blog */
-.blog{
-    background-color: #eee;
-    height: 1187px;
-   width: 100%;
-}
 /* mentor */
-
 .mentor {
     background-image: url(/IMG/sidebar/slide\ gioi\ thieu.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 510px;
+    height: 450px;
     width: 100%;
+    margin-top: -100px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
-   
+    
    
 }
 .inforMentor{
@@ -1370,112 +1526,4 @@
         background-position: center;
         background-size: cover;
     }
-}
-
-.read__item{
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.read__item--form:nth-child(1){
-    background-color: #fff;
-    height: 550px;
-    width: 420px;
-    padding: 40px;
-   display: flex;
-   margin-right: 30px;
-   justify-content: center;
-   box-shadow: 0px 1px 0px 0px;
-}
-.read__item--form:nth-child(2){
-    background-color: #fff;
-    height: 550px;
-    width: 420px;
-    padding: 40px;
-   display: flex;
-   margin-right: 30px;
-   justify-content: center;
-   box-shadow: 0px 1px 0px 0px;
-}
-.read__item--form:nth-child(3){
-    background-color: #fff;
-    height: 550px;
-    width: 420px;
-    padding: 40px;
-   display: flex;
-   justify-content: center;
-   box-shadow: 0px 1px 0px 0px;
-}
-.read__item--items{
-
-}
-
-.read__item-title{
-    font-size: 22px;
-    font-weight: 700;
-    color:#555;
-    margin-bottom: 10px;
-}
-.read__item-title:hover{
-    color: #FFAA00;
-}
-
-.read__item-text{
-    color: #777;
-    text-align: justify;
-    font-size: 15px;
-}
-
-.read__item-link{
-    background-color: #333;
-    width: 330px;
-    height: 50px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-.read__item-link:hover{
-    background-color: #FFAA00;
-}
-.read__item-link a{
-    color: #fff;
-    font-weight: 900;
-    text-decoration: none;
-
-}
-.read__item-list{
-    width: 330px;
-
-}
-.read__item-list img{
-    margin-bottom: 20px;
-}
-.read__item-list img:hover{
-    opacity: 0.5;
-}
-
-/* bran */
-.logo__form{
-    
-    display: flex;
-    width: 100%;
-    
-    background-color: #fff;
-    justify-content: center;
-}
-.logo__form-items{
-    margin-right: 25px;
-}
-.logo__form-items:hover{
-    box-shadow: 0 0 10px 1px #dbdbdb;
-}
-
-/* footer */
-.footer{
-    background-color: #000;
-    width: 100%;
-    height: 500px;
 }

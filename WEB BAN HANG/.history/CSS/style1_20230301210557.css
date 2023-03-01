@@ -1472,10 +1472,3 @@
 .logo__form-items:hover{
     box-shadow: 0 0 10px 1px #dbdbdb;
 }
-
-/* footer */
-.footer{
-    background-color: #000;
-    width: 100%;
-    height: 500px;
-}

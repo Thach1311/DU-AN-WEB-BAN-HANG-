@@ -1052,7 +1052,7 @@
 .sidebar {
     background-image: url(/IMG/sidebar/bgmain.jpg);
     width: 100%;
-    height: 650px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1306,7 +1306,7 @@
 /* blog */
 .blog{
     background-color: #eee;
-    height: 1187px;
+   height: 1700px;
    width: 100%;
 }
 /* mentor */
@@ -1316,8 +1316,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 510px;
+    height: 580px;
     width: 100%;
+
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -1455,27 +1456,4 @@
 }
 .read__item-list img:hover{
     opacity: 0.5;
-}
-
-/* bran */
-.logo__form{
-    
-    display: flex;
-    width: 100%;
-    
-    background-color: #fff;
-    justify-content: center;
-}
-.logo__form-items{
-    margin-right: 25px;
-}
-.logo__form-items:hover{
-    box-shadow: 0 0 10px 1px #dbdbdb;
-}
-
-/* footer */
-.footer{
-    background-color: #000;
-    width: 100%;
-    height: 500px;
 }
