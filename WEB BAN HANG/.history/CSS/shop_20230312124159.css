@@ -962,7 +962,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    
 }
 
 .sell_product-list {
@@ -1006,7 +1006,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-
 }
 
 .sell_product-card {
@@ -1109,7 +1108,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+
 }
 
 .wellcom {
@@ -1118,8 +1117,8 @@
 }
 
 .main1__wellcom {
-   background-image: url(/IMG/bgShopWelcom.jpg);
-    width: 100%;
+   background-image: url(/IMG/b);
+    width: 1150px;
     height: 450px;
     margin-top: -35px;
     display: flex;
@@ -1208,10 +1207,10 @@
 
 /* read */
 
-.read__item {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+.read__item{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .read__item--form:nth-child(1){
@@ -1298,7 +1297,7 @@
 .read__item{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 60px;
   }
   
   .read__item--form:nth-child(1){

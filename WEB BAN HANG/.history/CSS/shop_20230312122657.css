@@ -78,7 +78,7 @@
 }
 
 .header__form3-moreLaguage-text1 {
-    color: #ff4000;
+    color: #FFAA00;
     margin-bottom: 10px;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .header__form3-moreLaguage-text2:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .header__form3-moreMoney-text1 {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .header__form3-moreMoney-text2 {
@@ -135,7 +135,7 @@
 }
 
 .header__form3-moreMoney-text2:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -201,12 +201,12 @@
 }
 
 .fa-magnifying-glass:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
 .fa-user:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -249,7 +249,7 @@
 }
 
 .header2__menu-moreHOME-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
     animation: inpit 1s;
 }
@@ -299,7 +299,7 @@
 }
 
 .header2__menu-moreSHOP-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -351,7 +351,7 @@
 }
 
 .header2__menu-morePROMOTION-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -466,7 +466,7 @@
 }
 
 .header2__menu-moreBLOG-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -518,7 +518,7 @@
 }
 
 .header2__menu-morePORTFOLIO-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
     cursor: pointer;
 }
 
@@ -569,7 +569,7 @@
 }
 
 .header2__menu-morePAGE-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .header2__menu-PAGE:hover .header2__menu-morePAGE {
@@ -615,7 +615,7 @@
 }
 
 .header2__icon-moreUser-list li:hover {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .header2__icon-PAGE:hover .header2__menu-moreUser {
@@ -656,7 +656,7 @@
 }
 
 .header2__icon-moreCart-listItem-price {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .header2__menu-moreCart-button {
@@ -668,7 +668,7 @@
 .header2__icon-moreCart-listItem-btn1 {
     padding: 20px 40px;
     color: #FFF;
-    background-color: #ff4000;
+    background-color: #FFAA00;
     font-weight: 800;
     border: none;
     font-size: 16px;
@@ -962,7 +962,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    
 }
 
 .sell_product-list {
@@ -995,18 +995,17 @@
 }
 
 .sell_product-infor .fa-star:hover {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .sell_product-infor h3 {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .sell_product {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-
 }
 
 .sell_product-card {
@@ -1029,7 +1028,7 @@
 }
 
 .sell_product-card i:hover {
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .sell_product-list:hover .sell_product-card i {
@@ -1103,115 +1102,10 @@
     }
 }
 
-
-/* Main 1 */
-.main1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-
-.wellcom {
-    background-color: #eeeeee;
-
-}
-
-.main1__wellcom {
-   background-image: url(/IMG/bgShopWelcom.jpg);
-    width: 100%;
-    height: 450px;
-    margin-top: -35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.main1__wellcom-form {}
-
-.main1__wellcom-header {
-    text-align: center;
-    margin-bottom: 37px;
-}
-
-.main1__wellcom-list {
-    display: flex;
-    justify-content: center;
-}
-
-.main1__wellcom-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: #847b7b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-
-.main1__wellcom-form-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.main1__wellcom-item {
-    color: #fff;
-    text-align: center;
-}
-
-.main1__wellcom-icon:hover {
-    background-color: #FFAA00;
-}
-
-.main1__wellcom-form-item:hover .main1__wellcom-text1 {
-    color: #FFAA00;
-}
-
-.main1__wellcom-text1 {
-    font-weight: 700;
-}
-
-.main1__wellcom-item {
-    padding: 0 80px 80px 80px;
-}
-
-.main1__wellcom-header i {
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.main1__wellcom-item p {
-    margin-top: 10px;
-}
-
-.main1__wellcom-text2 {
-    color: #d7d7d7;
-}
-
-.slide__bgMain-item1 {
-    transform: translate(-500px);
-    animation: animationPicture1 5s both;
-}
-
-.slide__bgMain-item4 {
-
-    transform: translate(500px);
-    animation: animationPicture4 5s both;
-}
-
-/* read */
-
-.read__item {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+.read__item{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .read__item--form:nth-child(1){
@@ -1254,7 +1148,7 @@
     margin-bottom: 10px;
 }
 .read__item-title:hover{
-    color: #ff4000;
+    color: #FFAA00;
 }
 
 .read__item-text{
@@ -1274,7 +1168,7 @@
     margin-top: 20px;
 }
 .read__item-link:hover{
-    background-color: #ff4000;
+    background-color: #FFAA00;
 }
 .read__item-link a{
     color: #fff;
@@ -1298,7 +1192,7 @@
 .read__item{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 60px;
   }
   
   .read__item--form:nth-child(1){
@@ -1341,7 +1235,7 @@
       margin-bottom: 10px;
   }
   .read__item-title:hover{
-      color: #ff4000;
+      color: #FFAA00;
   }
   
   .read__item-text{
@@ -1361,7 +1255,7 @@
       margin-top: 20px;
   }
   .read__item-link:hover{
-      background-color: #ff4000;
+      background-color: #FFAA00;
   }
   .read__item-link a{
       color: #fff;
@@ -1457,6 +1351,6 @@
   }
   
   .footer__icon-form:hover{
-      background-color: #ff4000;
+      background-color: #FFAA00;
   }
   

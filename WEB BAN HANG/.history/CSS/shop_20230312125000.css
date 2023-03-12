@@ -962,7 +962,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    mar
 }
 
 .sell_product-list {
@@ -1208,10 +1208,10 @@
 
 /* read */
 
-.read__item {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+.read__item{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .read__item--form:nth-child(1){
@@ -1298,7 +1298,7 @@
 .read__item{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 60px;
   }
   
   .read__item--form:nth-child(1){

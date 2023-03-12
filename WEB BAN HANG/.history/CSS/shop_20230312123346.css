@@ -962,7 +962,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    
 }
 
 .sell_product-list {
@@ -1006,7 +1006,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-
 }
 
 .sell_product-card {
@@ -1103,115 +1102,10 @@
     }
 }
 
-
-/* Main 1 */
-.main1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-
-.wellcom {
-    background-color: #eeeeee;
-
-}
-
-.main1__wellcom {
-   background-image: url(/IMG/bgShopWelcom.jpg);
-    width: 100%;
-    height: 450px;
-    margin-top: -35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.main1__wellcom-form {}
-
-.main1__wellcom-header {
-    text-align: center;
-    margin-bottom: 37px;
-}
-
-.main1__wellcom-list {
-    display: flex;
-    justify-content: center;
-}
-
-.main1__wellcom-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: #847b7b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-
-.main1__wellcom-form-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.main1__wellcom-item {
-    color: #fff;
-    text-align: center;
-}
-
-.main1__wellcom-icon:hover {
-    background-color: #FFAA00;
-}
-
-.main1__wellcom-form-item:hover .main1__wellcom-text1 {
-    color: #FFAA00;
-}
-
-.main1__wellcom-text1 {
-    font-weight: 700;
-}
-
-.main1__wellcom-item {
-    padding: 0 80px 80px 80px;
-}
-
-.main1__wellcom-header i {
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.main1__wellcom-item p {
-    margin-top: 10px;
-}
-
-.main1__wellcom-text2 {
-    color: #d7d7d7;
-}
-
-.slide__bgMain-item1 {
-    transform: translate(-500px);
-    animation: animationPicture1 5s both;
-}
-
-.slide__bgMain-item4 {
-
-    transform: translate(500px);
-    animation: animationPicture4 5s both;
-}
-
-/* read */
-
-.read__item {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+.read__item{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .read__item--form:nth-child(1){
@@ -1298,7 +1192,7 @@
 .read__item{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 60px;
   }
   
   .read__item--form:nth-child(1){

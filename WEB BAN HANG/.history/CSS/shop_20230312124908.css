@@ -962,7 +962,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    
 }
 
 .sell_product-list {
@@ -1006,6 +1006,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    margin-bottom: 200px;
 
 }
 
@@ -1208,10 +1209,10 @@
 
 /* read */
 
-.read__item {
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+.read__item{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .read__item--form:nth-child(1){
@@ -1298,7 +1299,7 @@
 .read__item{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 60px;
   }
   
   .read__item--form:nth-child(1){
