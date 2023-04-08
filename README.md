@@ -5,16 +5,14 @@ Thành viên
 + Mai Hồ Thiên Thạch
 + Lê Trọng Thiện
  
- Dự án chia thành 3 nhánh
- nhánh từng cá nhân và nhánh testCode để kiểm nghiệm lại code và thực hiện deploy trang web
+ Dự án chia thành 3 nhánh nhánh từng cá nhân và nhánh testCode để kiểm nghiệm lại code và thực hiện deploy trang web
  
  Tiến độ công việc 
- Ngày 17/2/2023 chuẩn bị cho dự án
-
-Ngày 19/2/2023 hoàn thành header form 1 và form 2 trang chủ 
-Ngày 28/2 bắt đầu làm trang home 
-Ngày 1/3 hoàn thành 100% trang home
-Ngày 3/3 bắt đầu làm trang shop
-Ngay 12/3 hoan thanh trang shop
-Ngay 4/2 hoan thanh trang Contact us
-Ngay 8/4 hoan thanh trang About us
++ Ngày 17/2/2023 chuẩn bị cho dự án
++ Ngày 19/2/2023 hoàn thành header form 1 và form 2 trang chủ 
++ Ngày 28/2 bắt đầu làm trang home 
++ Ngày 1/3 hoàn thành 100% trang home
++ Ngày 3/3 bắt đầu làm trang shop
++ Ngay 12/3 hoan thanh trang shop
++ Ngay 4/2 hoan thanh trang Contact us
++ Ngay 8/4 hoan thanh trang About us
