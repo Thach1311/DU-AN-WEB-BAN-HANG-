@@ -227,7 +227,7 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.header2__menu-PORTFOLIO a:nth-child(1):hover {
+.header2__menu-PORTFOLIO a:nth-child :hover {
     color: #fff;
     background-color: #ff4000;
     padding: 8px 15px;

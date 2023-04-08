@@ -192,55 +192,14 @@
     margin-left: 15px;
 }
 
-.header2__menu-HOME a:hover {
+.header2__menu a:hover {
     color: #fff;
     background-color: #ff4000;
     padding: 8px 15px;
     border-radius: 3px;
     cursor: pointer;
 }
-.header2__menu-SHOP a:hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.header2__menu-PROMOTION a:hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.header2__menu-ACCESSORIES a:hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.header2__menu-BLOG a:hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.header2__menu-PORTFOLIO a:nth-child(1):hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.header2__menu-PAGE a:hover {
-    color: #fff;
-    background-color: #ff4000;
-    padding: 8px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
+
 .fa-magnifying-glass:hover {
     color: #ff4000;
     cursor: pointer;
@@ -619,7 +578,22 @@
     animation: inpit 1s;
 }
 
+.header2__menu-morePAGE-list--link{
+    list-style: none;
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: -16px;
+    font-weight: 100;
 
+}
+.header2__menu-morePAGE-list--link:hover{
+    list-style: none;
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: -16px;
+    font-weight: 100;
+    
+}
 /* user */
 .header2__icon-PAGE {
     position: relative;

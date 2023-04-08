@@ -227,14 +227,14 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.header2__menu-PORTFOLIO a:nth-child(1):hover {
+.header2__menu-PORTFOLIO a:hover {
     color: #fff;
     background-color: #ff4000;
     padding: 8px 15px;
     border-radius: 3px;
     cursor: pointer;
 }
-.header2__menu-PAGE a:hover {
+.header2__menu-HOME a:hover {
     color: #fff;
     background-color: #ff4000;
     padding: 8px 15px;
