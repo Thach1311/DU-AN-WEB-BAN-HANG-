@@ -1,0 +1,148 @@
+.center1{
+    margin-top: 30px;
+    background-color: #EEEEEE;
+}
+.center1_one{
+    display: flex;
+    margin-left: 220px;
+      margin-right: 220px;
+    justify-content: center; 
+}
+button{
+    background-color:#fff;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 1;
+}
+button:hover{
+    opacity: 1;
+    background-color: red;
+}
+center_two{
+    margin-left: 180px;
+    margin-top: 20px;
+    
+}
+.center1_two{
+    position: relative;
+}
+.center2_two{
+    position: relative;
+}
+.center3_two{
+    position: relative;  
+}
+.center4_two{
+    position: relative;
+    margin-left: -1170px;
+    margin-top: 185px;  
+}
+.center5_two{
+    position: relative;
+    margin-top: 185px; 
+}
+.center6_two{
+    position: relative;
+    margin-top: 185px; 
+}
+.center7_two{
+    position: relative;
+    margin-left: -1170px;
+    margin-top: 370px;  
+}
+.center8_two{
+    position: relative;
+    margin-top: 370px
+}
+.center9_two{
+    position: relative;
+    margin-top: 370px
+}
+.center10_two{
+    position: relative;
+    margin-left: -1170px;
+    margin-top: 555px; 
+}
+.ad{
+
+    width: 390px;
+    height: 185px;
+    opacity: 1;
+}
+/* .ad:hover{
+  opacity: 0.5;
+  background-image: url(/img/lum2.jpg);
+} */
+.two-1{
+    position:absolute;
+   width: 390px;
+   height: 185px;
+   top: 0px;
+   left: 0px;
+    
+}
+.two-1_icon{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.content{
+    text-align: center; 
+    margin-top: 15%;
+    font-size: 20px;color: white;
+    opacity: 0; 
+}
+.icon{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 50px;
+   border: 2px solid #fff;
+   border-radius: 40px;
+   transition: all 2s ease;
+   opacity: 0;
+  
+}
+.icon_2{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 50px;
+   border: 2px solid #fff;
+   border-radius: 40px;
+   transition: all 2s ease;
+   opacity: 0;
+
+}
+.two-1:hover{
+    opacity: 0.5;
+    background-color:#4E5053;
+}
+.two-1:hover .content{
+   left: 30px;
+   opacity: 1;
+}
+  .two-1:hover .icon{
+     transform: translate3d(90px,0,0);
+
+    opacity: 1;
+}
+ .two-1:hover .icon_2{
+    transform: translate3d(-90px,0,0); 
+    opacity: 1;
+}
+
+
+
+/* .two-1:hover .icon,
+.two-1:hover .icon_2{
+    background-color: violet;
+} */
+
