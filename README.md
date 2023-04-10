@@ -1,6 +1,9 @@
 Link trang web mẫu 
 ->  http://southteam.vn/demo/?id=445&fbclid=IwAR2EvZt_L1aywzxcUOHXUnd93OIZ5PcWKO9G63AUT07Gl5NYGOwza0iq3Ak
 
+Link trang deploy
+-> https://thach1311.github.io/index.html
+
 Thành viên
 + Mai Hồ Thiên Thạch
 + Lê Trọng Thiện
