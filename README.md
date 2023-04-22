@@ -13,6 +13,7 @@ Thành viên
  Dự án chia thành 3 nhánh nhánh từng cá nhân và nhánh testCode để kiểm nghiệm lại code và thực hiện deploy trang web
  
  Tiến độ công việc 
+ Mục tiêu thứ nhất 17/2/2023 -> 29/3/2023 hoàn thành các trang web
 + Ngày 17/2/2023 chuẩn bị cho dự án
 + Ngày 19/2/2023 hoàn thành header form 1 và form 2 trang chủ 
 + Ngày 28/2 bắt đầu làm trang home 
@@ -21,3 +22,5 @@ Thành viên
 + Ngay 12/3 hoan thanh trang shop
 + Ngay 4/2 hoan thanh trang Contact us
 + Ngay 8/4 hoan thanh trang About us
++ Ngày 15/4 hoàn thanh trang portfolio
++ Ngày 22/4 hoan thanh trang blog
