@@ -55,6 +55,7 @@
     </div>
   </div>
 
+  <!-- header2 -->
   <div class="header2">
     <div class="header2__logo">
       <img src="/IMG/logo.png" alt="" />
@@ -263,7 +264,7 @@
 
       <!--PORTFLOLIO  -->
       <div class="header2__menu-PORTFOLIO">
-        <a class="portfolio" href="">PORTFOLIO</a>
+        <a class="portfolio" href="./HTML/portfolio.html">PORTFOLIO</a>
 
         <div class="header2__menu-morePORTFOLIO">
           <div class="header2__menu-morePORTFOLIO-listItem">
@@ -286,7 +287,7 @@
           <div class="header2__menu-morePAGE-listItem">
             <ul class="header2__menu-morePAGE-list">
               <li><a href="./HTML/aboutUs.html"> About Us </a> </li>
-              <li><a href="./HTML/aboutUs.html"> Contact Us</a></li>
+              <li><a href="./HTML/contactUs.html"> Contact Us</a></li>
               <li><a href=""> Page 404</a></li>
             </ul>
           </div>
@@ -299,7 +300,9 @@
 
       <!-- icon user -->
       <div class="header2__icon-PAGE">
-        <i class="fa-solid fa-user"></i>
+        <button id="myBtn" style="border: none;background-color: #fff;padding: 10px;">
+          <i class="fa-solid fa-user"></i>
+        </button>
 
         <div class="header2__menu-moreUser">
           <div class="header2__icon-moreUser-listItem">
@@ -1382,6 +1385,68 @@
     style="height: 70px;background-color: #000000;display: flex;justify-content: center;align-items: center;color: #ffffff;">
     <p>©2021 WordPress Theme SW Hitheme. All Rights Reserved. Designed by WPThemeGo.com</p>
   </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div style="padding: 10px;display: flex;">
+
+        <div style="border-right: 1px solid #8f8b8b;width: 350px;height: 200px;padding-right:30px;">
+          <input type="text" placeholder="Username" style="height: 40px;width: 300px;padding: 10px;margin-bottom: 10px;">
+          <input type="password" placeholder="Password" style="height: 40px;width: 300px;padding: 10px;">
+          <p style="opacity: 0.7;;margin-top: 20px;">Forgot your password?</p>
+          <button class="btn-login" style="background-color: #ffaa00;width: 150px;height: 40px;border: none;margin-top: 20px;"><i class="fa-duotone fa-lock-keyhole"></i>Login</button>
+  
+        </div>
+
+        <div style="margin-left: 40px;height: 200px;">
+          <p style="font-weight: 600;"> 
+            NEW HERE?
+          </p>
+          <p style="font-size: 15px;">Registration is free and easy!</p>
+          <ul>
+            <li style="font-size: 15px;margin-top: 10px;">Faster checkout</li>
+            <li style="font-size: 15px;margin-top: 10px;">Save multiple shipping addresses</li>
+            <li style="font-size: 15px;margin-top: 10px;">View and track orders and more</li>
+          </ul>
+          <button class="btn-create" style="padding: 3px;background-color: #ffaa00;width: 180px;height: 40px;border: none;margin-top: 20px;"><i class="fa-duotone fa-lock-keyhole"></i>CREAT AN ACCOUNT</button>
+
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
 </body>
 
 </html>
