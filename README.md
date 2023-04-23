@@ -26,3 +26,4 @@ Thành viên
 + Ngày 22/4 hoan thanh trang blog
 
 Mục tiêu thứ hai 25/4 -> 1/5 sửa lổi và hoàn thành figma 
++ Sua loi trang about us them chuc nang animated title cho cac trang 
