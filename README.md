@@ -4,7 +4,7 @@ Link trang web mẫu
 ->  http://southteam.vn/demo/?id=445&fbclid=IwAR2EvZt_L1aywzxcUOHXUnd93OIZ5PcWKO9G63AUT07Gl5NYGOwza0iq3Ak
 
 Link trang deploy
--> https://thach1311.github.io/index.html
+-> https://thach1311.github.io/deployCode/
 
 Thành viên
 + Mai Hồ Thiên Thạch
@@ -27,3 +27,4 @@ Thành viên
 
 Mục tiêu thứ hai 25/4 -> 1/5 sửa lổi và hoàn thành figma 
 + Sua loi trang about us them chuc nang animated title cho cac trang 
++ Deploy trang web hoan thanh
