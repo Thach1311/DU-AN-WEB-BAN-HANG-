@@ -13,7 +13,8 @@ Thành viên
  Dự án chia thành 3 nhánh nhánh từng cá nhân và nhánh testCode để kiểm nghiệm lại code và thực hiện deploy trang web
  
  Tiến độ công việc 
- Mục tiêu thứ nhất 17/2/2023 -> 24/4/2023 hoàn thành các trang web
+ 
+ - Mục tiêu thứ nhất 17/2/2023 -> 24/4/2023 hoàn thành các trang web
 + Ngày 17/2/2023 chuẩn bị cho dự án
 + Ngày 19/2/2023 hoàn thành header form 1 và form 2 trang chủ 
 + Ngày 28/2 bắt đầu làm trang home 
@@ -25,6 +26,6 @@ Thành viên
 + Ngày 15/4 hoàn thanh trang portfolio
 + Ngày 22/4 hoan thanh trang blog
 
-Mục tiêu thứ hai 25/4 -> 1/5 sửa lổi và hoàn thành figma 
+- Mục tiêu thứ hai 25/4 -> 1/5 sửa lổi và hoàn thành figma 
 + Sua loi trang about us them chuc nang animated title cho cac trang 
 + Deploy trang web hoan thanh
